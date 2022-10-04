@@ -1,0 +1,54 @@
+{
+	"compiler":"javac",
+	"command":"java",
+	"exercices":{
+	 "Partie 1":{
+	 	"required":[
+			"pobj/motx/grille/Case.java",
+			"pobj/motx/grille/Grille.java",
+			"pobj/motx/grille/EmplacementType.java",
+			"pobj/motx/grille/Emplacement.java",
+			"pobj/motx/grille/GrillePlaces.java"
+		],
+		"tests":[
+			"pobj.motx.grille.test.CaseTest",
+			"pobj.motx.grille.test.GrilleTest",
+			"pobj.motx.grille.test.EmplacementTest",
+			"pobj.motx.grille.test.GrillePlacesTest"
+		]
+	 },
+	  "Partie 2":{
+	 	"required":[
+			"pobj/motx/mots/Dictionnaire.java",
+			"pobj/motx/grille/GrillePotentiel.java"
+		],
+		"tests":[
+			"pobj.motx.mots.test.DictionnaireTest",
+			"pobj.motx.grille.test.GrillePotentielTest",
+			"pobj.motx.grille.test.GrillePotentielTest2",
+			"pobj.motx.grille.test.GrillePotentielTest3"
+		]
+	 },
+	  "Partie 3":{
+	 	"required":[
+			"pobj/csp/IContrainte.java",
+			"pobj/motx/csp/CroixContrainte.java",
+			"pobj/motx/csp/GrilleContrainte.java",
+			"pobj/csp/IVariable.java",
+			"pobj/csp/ICSP.java",
+			"pobj/motx/csp/DicoVariable.java",
+			"pobj/motx/csp/MotX.java"
+		],
+		"tests":[
+			"pobj.motx.mots.test.DictionnaireTest",
+			"pobj.motx.csp.test.CroixContrainteTest",
+			"pobj.motx.csp.test.GrilleContrainteTest1",
+			"pobj.motx.csp.test.GrilleContrainteTest2",
+			"pobj.motx.csp.test.GrilleContrainteTest3",
+			"pobj.motx.csp.test.GrilleSolverTest"
+		]
+	 }
+	}
+	
+	
+}
